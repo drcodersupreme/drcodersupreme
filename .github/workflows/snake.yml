@@ -12,6 +12,7 @@ on:
   push:
     branches:
       - main
+      - master
 
 permissions:
   contents: write
@@ -25,12 +26,12 @@ jobs:
     steps:
       # Uses Platane/snk to convert GitHub contributions into animated SVG files.
       - name: Generate contribution snake
-        uses: Platane/snk/svg-only@v3
+        uses: Platane/snk@v3
         with:
-          github_user_name: drcodersupreme
+          github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-contribution-grid-snake.svg?color_snake=%2300FF9C&color_dots=%230B0F14,%2300473A,%2300B86B,%2300FF9C,%2300E5FF
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=%2300FF9C&color_dots=%230B0F14,%2300473A,%2300B86B,%2300FF9C,%2300E5FF
+            dist/github-contribution-grid-snake.svg?color_snake=#00FF9C&color_dots=#0B0F14,#00473A,#00B86B,#00FF9C,#00E5FF
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#00FF9C&color_dots=#0B0F14,#00473A,#00B86B,#00FF9C,#00E5FF
 
       # Publishes the generated SVGs to the output branch used by the README.
       - name: Push snake SVGs to output branch
