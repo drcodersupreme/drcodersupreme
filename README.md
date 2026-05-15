@@ -74,22 +74,25 @@
 <!-- GITHUB STATS SECTION -->
 <h2 align="center">GitHub Stats</h2>
 
+<!--
+  github-readme-stats.vercel.app is often paused/rate-limited, so these cards use ghstats.dev.
+-->
 <p align="center">
   <img
-    height="180"
-    src="https://github-readme-stats.vercel.app/api?username=drcodersupreme&show_icons=true&theme=tokyonight&hide_border=false&border_color=00FF9C&bg_color=000000&title_color=00FF9C&icon_color=00E5FF&text_color=FFFFFF&rank_icon=github&include_all_commits=true"
+    width="49%"
+    src="https://ghstats.dev/api/card?username=drcodersupreme&amp;theme=tokyonight&amp;size=compact&amp;compact_count=6&amp;hide_border=false&amp;border_color=00FF9C&amp;bg=000000&amp;title_color=00FF9C&amp;icon_color=00E5FF&amp;text=FFFFFF&amp;show_icons=true"
     alt="Yash's GitHub stats"
   />
   <img
-    height="180"
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=drcodersupreme&layout=compact&theme=tokyonight&hide_border=false&border_color=00E5FF&bg_color=000000&title_color=00FF9C&text_color=FFFFFF"
+    width="49%"
+    src="https://ghstats.dev/api/langs?username=drcodersupreme&amp;theme=tokyonight&amp;layout=bar&amp;hide_border=false&amp;border_color=00E5FF&amp;bg=000000&amp;title_color=00FF9C&amp;text=FFFFFF&amp;max_langs=8"
     alt="Most used languages"
   />
 </p>
 
 <p align="center">
   <img
-    src="https://streak-stats.demolab.com?user=drcodersupreme&theme=tokyonight&hide_border=false&border=00FF9C&background=000000&ring=00FF9C&fire=00E5FF&currStreakLabel=00FF9C&sideLabels=FFFFFF&dates=8B949E"
+    src="https://streak-stats.demolab.com?user=drcodersupreme&amp;theme=tokyonight&amp;hide_border=false&amp;border=00FF9C&amp;background=000000&amp;ring=00FF9C&amp;fire=00E5FF&amp;currStreakLabel=00FF9C&amp;sideLabels=FFFFFF&amp;dates=8B949E"
     alt="GitHub streak stats"
   />
 </p>
